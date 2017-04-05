@@ -1,7 +1,7 @@
 Wicket Bootstrap Sidebar Navigation
 ===================================
 
-4.0.0 - This is a complete rewrite of ronsmits sidenavigationpanel project to work with Wicket 7.6.0 and Bootstrap implementation 3.3.6+. Added functionality to take advantage of Bootstraps sidebar-collapse ability, adding sub menus and adding font-awesome icons (other icons might work but were never tested). This has only been tested with one specific Bootstrap template so use at your own risk. 
+4.0.0 - This is a complete rewrite of ronsmits sidenavigationpanel project to work with Wicket Bootstrap 0.10.7 (Wicket 7.6.0 & Bootstrap 3.3.6+). The samples are the only items using Wicket Bootstrap and that was to simply load the font-awesome icons quickly. Added functionality to add sub menus and adding font-awesome icons (other icons might work but were never tested).
 
 Using
 =====

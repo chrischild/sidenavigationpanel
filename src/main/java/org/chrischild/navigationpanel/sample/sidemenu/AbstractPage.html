@@ -12,7 +12,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <!DOCTYPE html>
-<html>
+<html xmlns:wicket="http://wicket.apache.org">
 <head>
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -24,10 +24,16 @@ limitations under the License.
 			<h4 class="muted">sidebar menu</h4>
 		</div>
 	</div>
-		<div class="container">
+		<div class="wrapper">
 			<div class="row">
 				<div class="col-md-2">
-					<div wicket:id="navigation" class="well"></div>
+					<aside class="main-sidebar">
+						<section class="sidebar">
+							<div class="user-panel"></div>
+							<wicket:container wicket:id="navigation" />
+					    </section>
+					    <!-- /.sidebar -->
+					</aside>
 				</div>
 				<div class="col-md-10">
 				<div class="jumbotron">

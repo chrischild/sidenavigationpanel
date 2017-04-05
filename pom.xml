@@ -29,6 +29,7 @@
 	</licenses>
 	<properties>
 		<wicket.version>7.6.0</wicket.version>
+		<wicket-bootstrap.version>0.10.7</wicket-bootstrap.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
@@ -37,6 +38,17 @@
 			<groupId>org.apache.wicket</groupId>
 			<artifactId>wicket-core</artifactId>
 			<version>${wicket.version}</version>
+		</dependency>
+		<!-- WICKET-BOOTSTRAP DEPENDENCIES -->
+		<dependency>
+		    <groupId>de.agilecoders.wicket</groupId>
+		    <artifactId>wicket-bootstrap-core</artifactId>
+		    <version>${wicket-bootstrap.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>de.agilecoders.wicket</groupId>
+		    <artifactId>wicket-bootstrap-extensions</artifactId>
+		    <version>${wicket-bootstrap.version}</version>
 		</dependency>
 		<!-- OPTIONAL DEPENDENCY <dependency> <groupId>org.apache.wicket</groupId> 
 			<artifactId>wicket-extensions</artifactId> <version>${wicket.version}</version> 
